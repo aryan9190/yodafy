@@ -1,0 +1,16 @@
+{
+  "name": "discord-yodafy-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that speaks like Yoda, using FunTranslations API and OpenAI fallback.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "openai": "^4.26.0",
+    "node-cache": "^5.1.2"
+  }
+}
